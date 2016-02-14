@@ -2,9 +2,9 @@ print "hello"
 print "Meriem trabelsi"
 print "SAIDA nsir"
 print "Med A.Dahmen"
-print 'aybo'
-print 'seif'
-print 'wissem'
+print 'aybo bourkhis'
+print 'seif chamsi'
+print 'wissem bou 6'
 print 'Hazem Haj Khlifa'
 print 'Abdessalem Boukil'
 print 'Iheb Knaz'
