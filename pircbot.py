@@ -23,8 +23,11 @@ while 1:
     readbuffer=temp.pop( )
 
     for line in temp:
+        msg = line
         line=string.rstrip(line)
         line=string.split(line)
 
         if(line[0]=="PING"):
             s.send("PONG %s\r\n" % line[1])
+        elif(line[1]=="PRIVMSG"):
+            print msg
